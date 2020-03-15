@@ -10,14 +10,14 @@ It is based on signal energy in frequency band of vocal pitch verse the noise le
   
 ## Test
 
-  'speech-vad$> python ./speech-vad.py --wavfile ./OSR_uk_000_0051_8k.wav'
+- speech-vad$> python ./speech-vad.py --wavfile ./OSR_uk_000_0051_8k.wav
 
 ## Test result
 
-[![VAD mask](https://github.com/bangfutao/speech-vad speech-vad/Figure_1.png)]
+- ![plot](Figure_1.png)
 
-## Free samples for more tests
-Link: https://www.voiptroubleshooter.com/open_speech/index.html
+## Free samples
+- URL: https://www.voiptroubleshooter.com/open_speech/index.html
 
 
 
