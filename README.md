@@ -6,7 +6,7 @@ It is based on signal energy in frequency band of vocal pitch verse the noise le
 ## Clone
 
 - Clone this repo to your local machine using
-  '$> git clone https://github.com/bangfutao/speech-vad speech-vad'
+- $> git clone https://github.com/bangfutao/speech-vad speech-vad
   
 ## Test
 
@@ -14,12 +14,14 @@ It is based on signal energy in frequency band of vocal pitch verse the noise le
 
 ## Test result
 
-- ![plot](Figure_1.png)
+   ![plot](Figure_1.png)
 
 ## Free samples
 - URL: https://www.voiptroubleshooter.com/open_speech/index.html
 
 
+---
+## License
 
--------
-Alexander USOLTSEV 2015 (c) [MIT License](https://opensource.org/licenses/MIT)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
