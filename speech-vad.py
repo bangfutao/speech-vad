@@ -17,8 +17,10 @@ def speech_vad(wav_file):
     total_number_samples = int ((number_of_frames * step_size_ms 
                                  + (frame_size_ms - step_size_ms)) * fs / 1000)
     audio = audio[0: total_number_samples] # remove the last partial frame
-
-    n_fft_points = int(2 ** (np.log10(frame_size_samples) / np.log10(2)))
+    n_fft_points = 2
+    while n_fft_points < frame_size_samples:
+        n_fft_points = n_fft_points *2
+    
     pitch_low = 100  # Hz
     pitch_high = 300 # Hz
     hz_per_bin = fs / n_fft_points
